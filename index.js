@@ -19,7 +19,7 @@ const questions = [ // learned of the default parameter for inquirer questions s
 		- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 		- What problem does it solve?
 		- What did you learn?`,
-		type: "input",
+		type: "editor",
 	},
     {
 		name: "install",

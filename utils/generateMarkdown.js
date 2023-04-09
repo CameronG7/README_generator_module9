@@ -24,8 +24,9 @@ else{
 }
 }
 function renderTable(boolean) {
-  if (boolean == true)
+  if (boolean === 'true')
   {
+    console.log('Table created successfully');
     return`
 ## Table of Contents 
     
@@ -38,7 +39,7 @@ function renderTable(boolean) {
 [License](#license)
     
     `
-  }
+  } else return '';
 
 }
 // TODO: Create a function to generate markdown for README 
@@ -52,6 +53,7 @@ function generateMarkdown({title,description,install, usage, license,credits, co
 ![alt text](${renderLicenseBadge(license)} )
 
 ${description} 
+
 ${renderTable(table)}
 
 ## Installation
