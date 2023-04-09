@@ -28,6 +28,9 @@ To install the project simply clone the repo to a directory on your machine. Exa
 
 ## Usage
 
+Video guide: [Example readme generation.webm](https://user-images.githubusercontent.com/122698132/230797479-38f08c81-5834-4df5-bd4e-43639a9b6129.webm)
+
+
 Once installed, open the project directory in your terminal and run ``` npm i ``` in the command line. This will install any dependancies needed. Then run ``` node index.js``` and answer the questions. 
 The READMe will be generated in the the directory.
 
